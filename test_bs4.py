@@ -16,6 +16,7 @@ for i in find_word:
     #i = str(i).split('</span>')
     text = i.get_text()
     print(text)
+    
 ''' 
 headline_text = [
     h.get_text(strip=True)
